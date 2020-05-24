@@ -29,6 +29,49 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+jekyll_admin:
+  hidden_links:
+    - posts
+    - configuration
+    - datafiles
+
+collections:
+  faculty_members:
+    output: false
+  areas_of_study:
+    output: true
+  events:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "faculty_members"
+    values:
+      name: "Faculty Member"
+      professional_title: "Title"
+      dept: "Department"
+      email: "email@address.com"
+  -
+    scope:
+      path: ""
+      type: "areas_of_study"
+    values:
+      layout: "area_of_study"
+      image: "https://placehold.it/566x399"
+  -
+    scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "post"
+      image: "https://placehold.it/566x399"
+      title: "Event title"
+      academic_year: "2020"
+      dateStart: "2020-01-01"
+      dateEnd: "2020-01-02"
+
 # Build settings
 
 # Exclude from processing.
