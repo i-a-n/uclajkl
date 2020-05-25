@@ -1,0 +1,6 @@
+
+{% for faculty_member in site.faculty_members %}
+	<span class='pick-one' style='display: none;'>
+		{{ faculty_member.name }} - {{ faculty_member.dept }}
+	</span>
+{% endfor %}

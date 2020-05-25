@@ -1,0 +1,16 @@
+.module--50-50 {
+	.col--text {
+		@include media-breakpoint-up(lg) {
+			min-height: 338px;
+		}
+
+		p {
+			font-size: 18px;
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

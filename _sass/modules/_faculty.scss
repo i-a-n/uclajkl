@@ -1,0 +1,45 @@
+.faculty-container {
+	.img-row {
+	}
+}
+
+.faculty-img-container {
+	@include media-breakpoint-up(sm) {
+		max-width: 23%;
+	}
+
+	&.inactive {
+		opacity: .3;
+	}
+}
+
+.faculty-inline-title {
+	font-size: 20px;
+}
+
+.detail-container {
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+
+	p {
+		line-height: 20px;
+	}
+}
+
+.detail-container:not(.active) {
+	display: none;
+}
+
+.faculty-list-container {
+	small {
+		display: block;
+		margin-top: -3px;
+		margin-bottom: 5px;
+	}
+}
+
+.faculty-list {
+	font-size: 18px;
+	line-height: 24px;
+}
