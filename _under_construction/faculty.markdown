@@ -1,69 +1,15 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Crete+Round|PT+Sans|PT+Sans+Narrow:400,700" rel="stylesheet">
+---
+title: Faculty
+layout: default
+permalink: "/under_construction/faculty/"
+hero_image: https://placehold.it/566x399
+---
 
-  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
-<body><div class="container  px-0">
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="https://placehold.it/118x43"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav  mr-auto">
-        <li class="nav-item  ml-1  ml-lg-4">
-          <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item  ml-1  ml-lg-4">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item  ml-1  ml-lg-4">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Link+
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-auto">
-                  <div class="dropdown-item-text">
-                    Text TK TKTK
-                  </div>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                </div>
-                <div class="col-sm-auto">
-                  <div class="dropdown-item-text">
-                    Text TK TKTKTK
-                  </div>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                </div>
-              </div>
-          </div>
-        </li>
-      </ul>
-      <div class="my-2 my-lg-0">
-        <button type="button" class="mx-1  btn  btn-primary  font-weight-bold  btn--nav">Button TK</button>
-        <button type="button" class="mx-1  btn  btn-info  font-weight-bold  btn--nav">Button TKTKTK</button>
-      </div>
-    </div>
-  </nav>
-</div>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <!-- 50/50 hero -->
+<!-- 50/50 hero -->
 <div class="container  module--50-50">
 	<div class="row">
 		<div class="col-12  col-md-6  px-0  order-md-2">
-			<img src="https://placehold.it/566x399" class="img-fluid" />
+			<img src="{{ page.hero_image }}" class="img-fluid">
 		</div>
 		<div class="col--text  col-12  col-md-6  px-0  bg-secondary  order-md-1  d-flex  align-items-center">
 			<div class="container  px-5  py-4  pt-lg-0">
@@ -88,27 +34,18 @@
 
 	<!-- single row -->
 	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
-		
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="/assets/uploads/once-again.jpg" class="full-width-img" alt="" />
-      Ara Abacarons - Development
-		</div>
-    
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="/assets/uploads/once-again.jpg" class="full-width-img" alt="HURRICANE" />
-      Dylan (hurricane) Kessler - Photography
-		</div>
-    
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
-	</div>
+		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
+			<img src="https://placehold.it/260x189" class="full-width-img">
+		</div>	</div>
 	<div class="row  mx-0  py-5  bg-light-gray  detail-container">
 		<div class="col-4">
 			<span class="font-serif-1  faculty-inline-title">{name}</span><br />
@@ -126,16 +63,16 @@
 	<!-- single row -->
 	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 	</div>
 	<div class="row  mx-0  py-5  bg-light-gray  detail-container">
@@ -160,13 +97,13 @@
 	<!-- single row -->
 	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img" />
+			<img src="https://placehold.it/260x189" class="full-width-img">
 		</div>
 		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
 			<!-- this is an empty cell -->
@@ -234,38 +171,3 @@
 		</div>
 	</div>
 </div>
-
-      </div>
-    </main><!-- <footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Your awesome title</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer> -->
-
-<!-- JavaScript -->
-<!-- jQuery first, then Bootstrap JS -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/index.js"></script>
-</body>
-
-</html>
