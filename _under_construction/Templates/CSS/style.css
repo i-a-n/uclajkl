@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-light {
+    border-style: solid;
+    border-color: black;
+    margin: 20px 0px;
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 250px !important;
+}
+
+.collapse {  
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4A4A4A;
+}
+
+li {
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Crete Round', serif;
+} 
+
+h4 {
+    font-family: 'Crete Round', serif;
+} 
+
+h5 {
+    font-family: 'Crete Round', serif;
+} 
+
+p {
+    font-size: 18px;
+}
+
+.address {
+    margin-top: -20px;
+}
+
+mark {
+    background-color: rgb(117, 62, 206);
+    color: white;
+    padding: 8px;
+}
+
+.card-text p{
+    font-size: 14px !important;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding: 60px 0px;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+#event-loc {
+    margin-top: -15px;
+}
+
+#spaces p{
+    font-size: 16px;
+}
+#spaces li {
+    font-size: 16px;
+}
+
