@@ -25,8 +25,16 @@ $(document).ready(function() {
 				$(".faculty-img-container").addClass("inactive").removeClass("active");
 				$(this).parent().removeClass("inactive").addClass("active");
 
-				// Activate the next detail box
+				// Get next detail box
 				var nextDetailBox = $(this).parent().parent().next(".detail-container");
+
+				// Insert variables into it
+				nextDetailBox.find('.js-replace-name').html($(this).attr('data-faculty-name'));
+				nextDetailBox.find('.js-replace-title').html($(this).attr('data-faculty-title'));
+				nextDetailBox.find('.js-replace-email').html($(this).attr('data-faculty-email'));
+				nextDetailBox.find('.js-replace-bio').html($(this).attr('data-faculty-bio'));
+
+				// Activate the next detail box
 				nextDetailBox.addClass("active");
 
 				// Scroll to the image that was just clicked

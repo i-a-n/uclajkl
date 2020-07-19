@@ -34,101 +34,57 @@ hero_image: https://placehold.it/566x399
 
 	<!-- single row -->
 	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
+
 		{% for faculty_member in site.faculty_members %}
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="/{{ faculty_member.image }}" class="full-width-img" alt="{{ faculty_member.alt }}" />
-      {{ faculty_member.name }} - {{ faculty_member.dept }}
-		</div>
-    {% endfor %}
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
+			{% assign remainder = forloop.index | modulo: 4 %}
+			<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
+				<img
+					alt="{{ faculty_member.alt }}"
+					class="full-width-img"
+					data-faculty-bio="{{ faculty_member.content }}"
+					data-faculty-email="{{ faculty_member.email }}"
+					data-faculty-name="{{ faculty_member.name }}"
+					data-faculty-title="{{ faculty_member.professional_title }}"
+					src="/{{ faculty_member.image }}"
+				/>
+				{{ faculty_member.name }} - {{ faculty_member.dept }}
+			</div>
+
+			{% comment %} <!-- Every fourth member, insert the "detail conatiner" --> {% endcomment %}
+			{% if remainder == 0 %}
+				</div>
+				<div class="row  mx-0  py-5  bg-light-gray  detail-container">
+					<div class="col-4">
+						<span class="font-serif-1  faculty-inline-title  js-replace-name">{name}</span><br />
+						<span class="font-serif-1  text-muted  faculty-inline-title  js-replace-title">{professional_title}</span><br />
+						<small class="font-serif-1  text-dark-blue  js-replace-email">{email}</small>
+					</div>
+					<div class="col-7  js-replace-bio">
+						{bio}
+					</div>
+				</div>
+			<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
+			{% endif %}
+
+			{% comment %} <!-- On the final item, calculate how many blanks we need, and insert them --> {% endcomment %}
+			{% if forloop.last == true %}
+				{% assign numberOfBlanks = 4 | minus: remainder %}
+				{% for i in (1..numberOfBlanks) %}
+					<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
+					</div>
+				{% endfor %}
+			{% endif %}
+
+		{% endfor %}
 	</div>
 	<div class="row  mx-0  py-5  bg-light-gray  detail-container">
 		<div class="col-4">
-			<span class="font-serif-1  faculty-inline-title">{name}</span><br />
-			<span class="font-serif-1  text-muted  faculty-inline-title">{professional_title}</span><br />
-			<small class="font-serif-1  text-dark-blue">{email}</small>
+			<span class="font-serif-1  faculty-inline-title  js-replace-name">{name}</span><br />
+			<span class="font-serif-1  text-muted  faculty-inline-title  js-replace-title">{professional_title}</span><br />
+			<small class="font-serif-1  text-dark-blue  js-replace-email">{email}</small>
 		</div>
-		<div class="col-7">
-			<p>
-				{bio}
-			</p>
-		</div>
-	</div>
-
-
-	<!-- single row -->
-	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-	</div>
-	<div class="row  mx-0  py-5  bg-light-gray  detail-container">
-		<div class="col-4">
-			<span class="font-serif-1  faculty-inline-title">Text TKTK TK</span><br />
-			<span class="font-serif-1  text-muted  faculty-inline-title">Text TKTKTK</span><br />
-			<small class="font-serif-1  text-dark-blue">Text@TKTKTK TK</small>
-		</div>
-		<div class="col-7">
-			<p>
-				Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
-			</p>
-			<p>
-				Apply display utilities to create a flexbox container and transform direct children elements into flex items. Flex containers and items are able to be modified further with additional flex properties.
-			</p>
-			<p>
-				Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			</p>
-		</div>
-	</div>
-
-	<!-- single row -->
-	<div class="row  mx-0  justify-content-between  img-row  mt-md-4">
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<img src="https://placehold.it/260x189" class="full-width-img">
-		</div>
-		<div class="col-12  col-sm-3  px-0  py-3  py-md-0  faculty-img-container">
-			<!-- this is an empty cell -->
-		</div>
-	</div>
-	<div class="row  mx-0  py-5  bg-light-gray  detail-container">
-		<div class="col-4">
-			<span class="font-serif-1  faculty-inline-title">Text TKTK TK</span><br />
-			<span class="font-serif-1  text-muted  faculty-inline-title">Text TKTKTK</span><br />
-			<small class="font-serif-1  text-dark-blue">Text@TKTKTK TK</small>
-		</div>
-		<div class="col-7">
-			<p>
-				Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
-			</p>
-			<p>
-				Apply display utilities to create a flexbox container and transform direct children elements into flex items. Flex containers and items are able to be modified further with additional flex properties.
-			</p>
-			<p>
-				Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			</p>
+		<div class="col-7  js-replace-bio">
+			{bio}
 		</div>
 	</div>
 </div>
