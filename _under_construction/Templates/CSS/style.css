@@ -3,6 +3,11 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(58, 99, 175);
+}
+
 .btn {
     border-radius: 0px;
 }
