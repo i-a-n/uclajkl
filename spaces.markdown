@@ -1,7 +1,7 @@
 ---
 title: Galleries & Spaces
 layout: default
-permalink: "/spaces"
+permalink: "/spaces/"
 ---
 
 <div class="container mt-0  bg-secondary">
