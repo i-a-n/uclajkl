@@ -1,140 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undergraduate Studies</title>
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-    <!--Stylsheets-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
-</head>
-<script src="../JS/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<body>
+---
+title: Galleries & Spaces
+layout: default
+permalink: "/spaces"
+---
 
-<!--NavBar-->
-<div class="container  px-0">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="https://placehold.it/118x43"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav  mr-auto">
-            <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ACADEMICS+
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-sm-auto">
-                        <div class="dropdown-item-text">
-                          Text TK TKTK
-                        </div>
-                        <a class="dropdown-item" href="#">Link</a>
-                        <a class="dropdown-item" href="#">Link</a>
-                        <a class="dropdown-item" href="#">Link</a>
-                      </div>
-                      <div class="col-sm-auto">
-                        <div class="dropdown-item-text">
-                          Text TK TKTKTK
-                        </div>
-                        <a class="dropdown-item" href="#">Link</a>
-                        <a class="dropdown-item" href="#">Link</a>
-                        <a class="dropdown-item" href="#">Link</a>
-                      </div>
-                    </div>
-                </div>
-              </li>
-          <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              PEOPLE+
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                </div>
-            </div>
-          </li>
-          <li class="nav-item  ml-1  ml-lg-4">
-            <a class="nav-link" href="#">EVENTS</a>
-          </li>
-          <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ABOUT+
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                </div>
-            </div>
-          </li>
-        </ul>
-        <div class="my-2 my-lg-0">
-            <button type="button" class="mx-1  btn  btn-primary  font-weight-bold  btn--nav">APPLICATIONS</button>
-            <button type="button" class="mx-1  btn  btn-warning font-weight-bold btn--nav">FOR CURRENT STUDENTS</button>
-         </div>
-      </div>
-    </nav>
-  </div>
-
-
-<div class="container pt-5">
-    <div class="row">
-        <div class="col-lg-5">
-            <h4>UCLA Department of Art Spaces</h4>
-            <ul class="px-0" style="list-style-type:none;">
+<div class="container mt-0  bg-secondary">
+		<div class="row  px-5  pt-4 pb-2">
+			<h5 class="font-serif-1  serif-headline-1">UCLA Department of Art Spaces</h5>
+            <ul class="px-0" style="list-style-type:none; width: 100%;">
                 <li><a href="#"><u>Broad Art Center</u></a></li>
                 <li><a href="#"><u>New Wight Gallery</u></a></li>
                 <li><a href="#"><u>Undergraduate Art Gallery</u></a></li>
                 <li><a href="#"><u>UCLA Margo Leavin Graduate Art Studios</u></a></li>
                 <li><a href="#"><u>Digital Studio</u></a></li>
             </ul>
-        </div>
     </div>
 </div>
 
 <div class="container" id="spaces">
-    <div class="row pt-5">
-        <div class="col-lg">
+<div class="row pt-5 pl-0 pl-md-5">
+		<div class="col-md-5">
             <p style="font-weight:bold">Broad Art Center</p>
             <p style="margin-top:-20px">The UCLA Department of Art and the New Wight Gallery are housed in the Eli and Edythe Broad Art Center, designed by Richard Meier & Partners Architects, and completed in 2006.</p>
             <p>Conceived as the main gateway to UCLA’s North Campus, the Broad Art Center is situated just north of the UCLA Sculpture Garden. Departmental facilities include:</p>
@@ -150,13 +35,13 @@
             </ul>
 
         </div>
-        <div class="col-lg">
-            <img src="../CSS/Images/Broad.jpg" width="570" height="403">
+        <div class="col-md-6  offset-md-1">
+            <img src="https://placehold.it/570x403" class="full-width-img">
         </div>
     </div>
 
-    <div class="row pt-5">
-        <div class="col-lg">
+		<div class="row pt-5 pl-0 pl-md-5">
+        <div class="col-md-5">
             <p style="font-weight:bold">New Wight Gallery</p>
             <p style="margin-top:-20px;color:red">Broad Art Center Gallery Wing, Room _______</p>
             <p>The New Wight Gallery is vital for the visual arts on campus, both as a venue for exhibiting student work and as a forum for discussion. Graduate students organize a biennial exhibition of graduate-level artwork selected from on-site studio visits by graduate students to a number of the most prestigious art schools and university art departments in North America and abroad. Student art exhibitions take place in the New Wight Gallery throughout the academic year, including:</p>
@@ -172,13 +57,13 @@
             <a href="#" style="color:red">Link to events page for announcements?</a>
 
         </div>
-        <div class="col-lg">
-            <img src="../CSS/Images/Wight.jpg" width="570" height="403">
+        <div class="col-md-6  offset-md-1">
+            <img src="https://placehold.it/570x403" class="full-width-img">
         </div>
     </div>
 
-    <div class="row pt-5">
-        <div class="col-lg">
+		<div class="row pt-5 pl-0 pl-md-5">
+        <div class="col-md-5">
             <p style="font-weight:bold">Undergraduate Art Gallery</p>
             <p style="margin-top:-20px">Broad Art Center Gallery Wing, Room 11</p>
             <p>Undergraduate Art majors are encouraged to organize exhibitions in the Undergraduate Art Gallery (individual or group). The duration of each exhibition is one week and the schedule is determined by lottery the first week of each quarter.</p>
@@ -188,13 +73,13 @@
 
 
         </div>
-        <div class="col-lg">
-            <img src="../CSS/Images/Undergrad.jpg" width="570" height="403">
+        <div class="col-md-6  offset-md-1">
+            <img src="https://placehold.it/570x403" class="full-width-img">
         </div>
     </div>
 
-    <div class="row pt-5">
-        <div class="col-lg">
+		<div class="row pt-5 pl-0 pl-md-5">
+        <div class="col-md-5">
             <p style="font-weight:bold">Digital Studio</p>
             <p style="margin-top:-20px">Broad Art Center Gallery Wing, Room 2100B</p>
             <p>Located above the New Wight Gallery, the Digital Studio is a workspace providing tools and support for digital technology across areas. Equipment includes iMacs with Wacom tablets, flatbed scanners, color laser and inkjet printers from letter size to 64” wide, and DVD/Blu-ray burners. A broad range of software is available including applications for video editing sound, graphics, photography, 3d and other types of work. The studio is available to all students in the Department of Art with no lab fee and printing is available for a small fee.</p>
@@ -208,13 +93,13 @@
             <p style="margin-top:-20px">Chris Bassett has worked in a range of digital media since the late 1980s when he first encountered a KoalaPad. In addition to his studio practice, he is a collaborator in viralnet-v4.net, a “no-profit productive nexus—a curatorial initiative, an archive and an imaginary studio.”</p>
 
         </div>
-        <div class="col-lg">
-            <img src="../CSS/Images/Digital.jpg" width="570" height="403">
+        <div class="col-md-6  offset-md-1">
+            <img src="https://placehold.it/570x403" class="full-width-img">
         </div>
     </div>
 
-    <div class="row pt-5">
-        <div class="col-sm-5 offset-sm-1">
+    <div class="row pt-5 pl-0 pl-md-5">
+        <div class="col-md-5">
             <p style="font-weight:bold">UCLA Margo Leavin Graduate Art Studios</p>
             <p style="margin-top:-20px">3600 Hayden Ave.</p>
             <p style="margin-top:-20px">Culver City, CA 90232</p>
@@ -237,11 +122,9 @@
             <p style="margin-top:-20px">T: (310) 838-6947</p>
 
         </div>
-        <div class="col-sm-5 offset-sm-1">
+        <div class="col-md-6 offset-md-1">
             <!--change this to percentages-->
-            <img src="../CSS/Images/Leavin.jpg" width="570" height="403">
+            <img src="https://placehold.it/570x403" class="full-width-img">
         </div>
     </div>
 </div>
-</body>
-</html>

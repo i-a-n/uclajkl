@@ -8,7 +8,7 @@ permalink: "/undergraduate-admissions/"
 	<div class="row  px-5  py-4">
 		<h5 class="font-serif-1  serif-headline-1">Undergraduate Admissions</h5>
 		<p>Students may apply for admission at the freshman level from high school or transfer from another college or university. The application filing period is November 1–30 for enrollment in September of the following year.</p>
-		<button class="mx-1  btn  btn-warning font-weight-bold btn--nav px-5">Apply Now</button>
+		<button class="mx-1  btn  btn-info font-weight-bold btn--nav px-5">Apply Now</button>
 	</div>
 </div>
 <div class="container px-3 px-sm-0 mt-5">

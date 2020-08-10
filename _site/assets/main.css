@@ -2469,9 +2469,9 @@ a.text-blue:hover, a.text-blue:focus { color: #0074b3 !important; }
 
 .styled-dropdown .dropdown-item { font-size: 14px; font-weight: bold; line-height: 14px; }
 
-.navbar .nav-link { font-size: 18px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase; }
+.navbar .nav-link { font-size: 16px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; }
 
-@media (max-width: 991.98px) { .navbar .nav-link { font-size: 14px; letter-spacing: 2px; } }
+@media (max-width: 991.98px) { .navbar .nav-link { font-size: 12px; letter-spacing: 2px; } }
 
 .navbar .dropdown-toggle::after { display: none; }
 
