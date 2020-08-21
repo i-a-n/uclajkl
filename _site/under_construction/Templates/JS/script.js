@@ -1,3 +1,7 @@
 $(document).ready(function(){
-    $('.dropdown-toggle').dropdown()
+    $('.dropdown-toggle').dropdown();
+
+    $('.carousel').carousel();
+
+    console.log("I'm connected")
 })
