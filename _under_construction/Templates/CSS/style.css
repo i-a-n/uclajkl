@@ -37,21 +37,91 @@ h3, h4, h5, th{
 }
 
 /* Home Page */
-.home {
-    background-image: url("http://placehold.it/1140x500");
-    min-height: 500px;
+
+.homePage {
+    min-height: 3000px;
 }
-.homeh5{
-    height: 150px;
-    width: 325px;
+.text-block {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    color: white;
+  }
+
+.heroh5{
+    height: 120px;
+    width: 500px;
     color: white;
     padding: 15px 10px;
+    margin-top: 150px;
 
 }
-
 .homeBtn {
     font-family: 'Crete Round', serif;
 
+} 
+
+.homeBanner {
+    min-height: 675px;
+}
+
+.homeBanner p{
+    text-align: center;
+    
+}
+
+.cardHomeBanner,
+.collapseHomeBanner {
+    position: absolute;
+    background-color: #F7F7F7;
+    width: 70%;
+    right: 55px;
+    top: 300px;
+}
+
+.cardHomeBanner p {
+    font-size: 13px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+.cardHomeBanner h4 {
+    color: #4A4A4A;
+}
+
+.gridLeft,
+.gridLeft a {
+    background-color: #CCEDFF;
+    color: #4A4A4A;
+}
+
+.gridRight,
+.gridRight a {
+    background-color: #0055A6;
+    color: white;
+}
+
+.footerHome {
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+    background-color: #0055A6;
+    color: #FFFFFF;
+}
+
+.footerHome a {
+    color: #CCEDFF;
+}
+
+.footerHome ul {
+    list-style: none;
+}
+
+.footerHome button {
+    color: #0055A6;
+    background-color: #CCEDFF;
+    max-height: 70px;
+    font-weight: bold;
 }
 
 .collapse {  
@@ -99,6 +169,11 @@ mark {
 }
 #spaces li {
     font-size: 16px;
+}
+
+/* Interdisciplinary Studio */
+.interHero {
+    background-color: #E7D8FF;
 }
 
 .studio {
@@ -167,6 +242,13 @@ mark {
   content: '<';
   font-size: 55px;
   color: gray;
+}
+
+.carousel-caption {
+    position: relative;
+    width: 70%;
+    top: 5px;
+    color: #4A4A4A;
 }
 
 /* Second Carousel */

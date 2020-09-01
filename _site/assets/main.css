@@ -2489,11 +2489,21 @@ a.text-blue:hover, a.text-blue:focus { color: #0074b3 !important; }
 
 .bg-light-gray { background: #F7F7F7; }
 
+.bg-lilac { background: #E7D8FF; }
+
 .text-dark-blue { color: #0055A6; }
 
 .list-no-style { list-style: none; margin: 0; padding: 0; }
 
 .serif-headline-1 { font-size: 24px; font-weight: 400; }
+
+.purple-box { border-style: solid; border-color: #8237FF; border-width: 1px; }
+
+.purple-box-header { background: #8237FF; color: #F7F7F7; }
+
+.blue-box { border-style: solid; border-color: #0055A6; border-width: 1px; }
+
+.blue-box-header { color: #F7F7F7; background: #0055A6; }
 
 @media (min-width: 992px) { .module--50-50 .col--text { min-height: 338px; } }
 

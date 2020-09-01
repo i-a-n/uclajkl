@@ -27,8 +27,6 @@ permalink: "/event-detail/"
               <p class="exhibition">Parking in Lot 3 is $3/hour, max $12/day.</p>
               <p class="exhibition">Directions to Broad Art Center</p>
               <p class="exhibition">For more information, call (310) 825-0557.</p>
-
-
           </div>
       </div>
   </div>
