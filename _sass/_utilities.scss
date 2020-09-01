@@ -15,6 +15,10 @@
 	background: $gray--ash;
 }
 
+.bg-lilac {
+	background: $purple--lilac;
+}
+
 .text-dark-blue {
 	color: $blue--deep;
 }
@@ -28,4 +32,26 @@
 .serif-headline-1 {
 	font-size: 24px;
 	font-weight: 400;
+}
+
+.purple-box {
+    border-style: solid;
+    border-color: $purple--flourescent;
+    border-width: 1px;
+}
+
+.purple-box-header {
+	background: $purple--flourescent;
+	color: $gray--ash;
+}
+
+.blue-box {
+	border-style: solid;
+    border-color: $blue--deep;
+    border-width: 1px;
+}
+
+.blue-box-header {
+	color: $gray--ash;
+	background: $blue--deep;
 }
