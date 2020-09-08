@@ -8,3 +8,14 @@
 	background: $purple--flourescent;
 	color: $gray--ash;
 }
+
+.blue-box {
+	border-style: solid;
+    border-color: $blue--deep;
+    border-width: 1px;
+}
+
+.blue-box-header {
+	color: $gray--ash;
+	background: $blue--deep;
+}
