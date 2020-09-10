@@ -2493,6 +2493,8 @@ a.text-blue:hover, a.text-blue:focus { color: #0074b3 !important; }
 
 .text-dark-blue { color: #0055A6; }
 
+.text-dark-gray { color: #4A4A4A; }
+
 .list-no-style { list-style: none; margin: 0; padding: 0; }
 
 .serif-headline-1 { font-size: 24px; font-weight: 400; }

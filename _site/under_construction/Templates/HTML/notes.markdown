@@ -1,4 +1,17 @@
 1. home page needs responsive design
-2. Inter_studio is ready to be a markdown file (done)
-3. new_genres needs captions that go with carousel and fix the bottom 3pic container 
-4. alumni highlights ready to be a markdown file - fix table colors in md
+    a. 3 image/cards have poor responsive design, but not sure the best fix for it
+2. new_genres ready for jekyll md
+
+Complete Pages
+1. alumni-highlights
+2. current-students
+3. event-detail
+4. events
+5. faculty (not Becca)
+6. inter-studio
+7. spaces
+8. undergraduate-admissions
+
+Still Needed Pages
+1. home
+2. new-genres
