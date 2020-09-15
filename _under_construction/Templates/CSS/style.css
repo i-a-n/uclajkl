@@ -1,12 +1,27 @@
+/* General  */
 body {
     padding: 0;
     font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+hr {
+    width: 80%;
+    background-color: gray;
+    height: .5px;
 }
 
 a {
     font-family: 'PT Sans Narrow', sans-serif;
     color: rgb(58, 99, 175);
 }
+
+h3, h4, h5, th{
+    font-family: 'Crete Round', serif;
+} 
 
 .btn {
     border-radius: 0px;
@@ -21,6 +36,100 @@ a {
     width: 250px !important;
 }
 
+/* Home Page */
+
+.homePage {
+    min-height: 3000px;
+}
+
+.homeHero {
+    background-image: url("http://placehold.it/1140x500");
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    float: left;
+    position: relative;
+    padding: 10px 0px;
+    margin: 20px 10px;
+}
+
+.homeHero h5{
+    color: white;
+    height: 120px;
+    width: 40%;
+    padding: 15px 10px;
+    margin-top: 150px;
+}  
+
+.homeHero button {
+    font-family: 'Crete Round', serif;
+    padding: 10px 10px;
+}
+
+
+.homeBanner {
+    min-height: 675px;
+}
+
+.homeBanner p{
+    text-align: center;
+    
+}
+
+.cardHomeBanner,
+.collapseHomeBanner {
+    position: absolute;
+    background-color: #F7F7F7;
+    width: 70%;
+    right: 55px;
+    top: 300px;
+}
+
+.cardHomeBanner p {
+    font-size: 13px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+.cardHomeBanner h4 {
+    color: #4A4A4A;
+}
+
+.gridLeft,
+.gridLeft a {
+    background-color: #CCEDFF;
+    color: #4A4A4A;
+}
+
+.gridRight,
+.gridRight a {
+    background-color: #0055A6;
+    color: white;
+}
+
+.footerHome {
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+    background-color: #0055A6;
+    color: #FFFFFF;
+}
+
+.footerHome a {
+    color: #CCEDFF;
+}
+
+.footerHome ul {
+    list-style: none;
+}
+
+.footerHome button {
+    color: #0055A6;
+    background-color: #CCEDFF;
+    max-height: 70px;
+    font-weight: bold;
+}
+
 .collapse {  
     font-size: 1rem;
     font-weight: 400;
@@ -28,25 +137,6 @@ a {
     color: #4A4A4A;
 }
 
-li {
-    font-weight: bold;
-}
-
-h3 {
-    font-family: 'Crete Round', serif;
-} 
-
-h4 {
-    font-family: 'Crete Round', serif;
-} 
-
-h5 {
-    font-family: 'Crete Round', serif;
-} 
-
-p {
-    font-size: 18px;
-}
 
 .address {
     margin-top: -20px;
@@ -58,6 +148,10 @@ mark {
     padding: 8px;
 }
 
+/* Undergrad Studies Page */
+.undergrad {
+    min-height:300px;
+}
 .card-text p{
     font-size: 14px !important;
 }
@@ -83,3 +177,215 @@ mark {
     font-size: 16px;
 }
 
+/* Interdisciplinary Studio */
+.interHero {
+    background-color: #E7D8FF;
+}
+
+.studio {
+    border-style: solid;
+    border-color: #8237FF;
+    border-width: 1px;
+}
+.card p{
+    font-size: 11px;
+}
+
+#studio {
+    background-color: #8237FF;
+    color: white;
+}
+
+.grad {
+    border-color: #0055A6;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#grad {
+    background-color: #0055A6;
+    color: white;
+}
+
+.light-blue {
+    background-color: #E7D8FF;
+}
+
+.genres_faculty {
+    font-size: 11px;
+}
+
+/* New Genres */
+/* First Carousel */
+#myCarousel {
+    text-align: center;
+}
+
+.carousel-control-prev {
+    left: 120px;
+}
+
+.carousel-control-next {
+    right: 120px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+ background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: gray;
+}
+
+.carousel-caption {
+    position: relative;
+    width: 70%;
+    top: 5px;
+    color: #4A4A4A;
+}
+
+/* Second Carousel */
+
+#newWorkPrev {
+    left: 0px;
+}
+
+#newWorkNext {
+    right: 0px;
+}
+
+.newWork {
+    text-align: center;
+    font-size: 20px;
+}
+
+#genres {
+    background-color: #00A5FF;
+    color: white;
+}
+
+.genres {
+    border-style: solid;
+    border-color:  #00A5FF;
+    border-width: 1px;
+}
+
+.mfa p{
+    font-size: 18px;
+}
+
+.threePic {
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("http://placehold.it/300x250");
+    background-size: cover;
+    margin: 20px 10px;
+    }
+
+.threePic p {
+    background-color: #0055A6;
+    color: white;
+    height: 40px;
+    padding: 5px 5px;
+    margin-top: 125px;
+    width: 80%;
+    margin-left: 10px;
+}  
+
+/* Alumni Highlights */
+#highlights-header {
+    background-color: #CCEDFF;
+}
+
+.heroBG {
+    background-color: #CCEDFF;
+    color: #4A4A4A;
+}
+
+#highlights-body{
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #CCEDFF;
+  }
+
+tr:nth-child(even) {
+    background-color: #F7F7F7;
+  }
+
+  th, td {
+    padding: 10px;
+    line-height: 10px;
+    text-align: left;
+  }
+
+  th {
+      background-color: #0055A6;
+      color: white;
+  }
+  .table {
+      margin-right: 50px;
+  }
+
+  /* Event Details Page */
+  .exhibition {
+      font-size:15px;
+      line-height: 1.2;
+  }
+
+
+
+@media screen and (min-width: 768px) {
+    #current_students {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    td {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-control-prev {
+        left: 20px;
+    }
+    
+    .carousel-control-next {
+        right: 20px;
+    }
+
+    .threePic {
+        height: 200px;
+        width: 300px;
+    }
+
+    .homeHero h5 {
+        width: 90%;
+    }
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .homeHero h5 {
+        width: 55%;
+    }
+}
