@@ -15,9 +15,9 @@ gem "jekyll", "~> 4.0.0"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-admin'
+  # gem 'jekyll-admin'
   # gem 'jekyll-admin', :git => "git://github.com/i-a-n/jekyll-admin.git"
-  # gem 'jekyll-admin', :path => '../jekyll-admin'
+  gem 'jekyll-admin', :path => '../jekyll-admin'
   gem "jekyll-feed", "~> 0.12"
 end
 
