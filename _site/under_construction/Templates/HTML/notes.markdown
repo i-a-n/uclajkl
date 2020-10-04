@@ -8,7 +8,7 @@ Complete Pages
 3. event-detail
 4. events
 5. faculty (not Becca)
-6. inter-studio
+6. inter-studio (fix Grad Interdis. card so it's full width in responsive)
 7. spaces
 8. undergraduate-admissions
 

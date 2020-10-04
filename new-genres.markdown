@@ -124,7 +124,7 @@ permalink: "/new-genres/"
             <div class="carousel-item">
                 <img class="img-responsive center-block" src="http://placehold.it/750x450" alt="Second Slide">
                 <div class="align-items-center flex-column">
-                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</p></strong>
+                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</strong></p>
                   <p>Three New Genresnew genres iInstallation sSpaces are available to undergraduate students for
                     two-week residencies. Each space is approximately 10 × &#39; x 12′&#39;.  . Residency reservations open
                     at the beginning of each quarter and students may sign up once per quarter. . Students not

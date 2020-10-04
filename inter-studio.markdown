@@ -75,6 +75,7 @@ permalink: "/inter-studio/"
 <div class="container">
     <h4 class="pt-5 font-serif-1">Interdisciplinary Studio Undergraduate & Graduate Courses</h4>
     <div class="row">
+    <!--Fix this-->
         <div class="col-6">
             <div class="card blue-box">
                 <h5 class="card-header blue-box-header font-serif-1">Graduate Interdisciplinary Studio Courses</h5>

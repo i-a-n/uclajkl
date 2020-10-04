@@ -2483,6 +2483,8 @@ a.text-blue:hover, a.text-blue:focus { color: #0074b3 !important; }
 
 .full-width-img { height: auto; width: 100%; }
 
+.full-height-img { height: 100%; }
+
 .font-serif-1 { font-family: "Crete Round", serif; }
 
 .bg-light-blue { background: #CCEDFF; }
@@ -2514,6 +2516,45 @@ tr:nth-child(odd) { background-color: #CCEDFF; }
 tr:nth-child(even) { background-color: #F7F7F7; }
 
 th { color: #F7F7F7; background-color: #0055A6; font-family: "Crete Round", serif; }
+
+/* Home Page */
+.homePage { min-height: 3000px; }
+
+.homeHero { background-image: url("http://placehold.it/1140x500"); background-size: cover; width: 100%; height: 500px; float: left; position: relative; padding: 10px 0px; margin: 20px 10px; }
+
+.homeHero h5 { color: white; height: 120px; width: 40%; padding: 15px 10px; margin-top: 150px; }
+
+.homeHero button { font-family: 'Crete Round', serif; padding: 10px 10px; }
+
+.homeBanner { min-height: 675px; }
+
+.homeBanner p { text-align: center; }
+
+.cardHomeBanner { position: absolute; background-color: #F7F7F7; width: 70%; right: 15%; top: 80%; min-height: 100px; }
+
+.cardHomeBanner p { font-size: 13px; text-align: left; color: #4A4A4A; }
+
+.cardHomeBanner h4 { color: #4A4A4A; }
+
+.gridLeft, .gridLeft a { background-color: #CCEDFF; color: #4A4A4A; }
+
+.gridRight, .gridRight a { background-color: #0055A6; color: white; }
+
+.footerHome { position: absolute; top: 3000px; width: 100%; background-color: #0055A6; color: #FFFFFF; }
+
+.footerHome a { color: #CCEDFF; }
+
+.footerHome ul { list-style: none; }
+
+.footerHome button { color: #0055A6; background-color: #CCEDFF; max-height: 70px; font-weight: bold; }
+
+.collapse { font-size: 1rem; font-weight: 400; line-height: 1.5; color: #4A4A4A; }
+
+.address { margin-top: -20px; }
+
+mark { background-color: #753ece; color: white; padding: 8px; }
+
+@media screen and (max-width: 768px) { .homeHero h5 { width: 70%; } .cardHomeBanner { background-color: #F7F7F7; width: 80%; top: 50%; } .homePage { min-height: 12000px; } }
 
 @media (min-width: 992px) { .module--50-50 .col--text { min-height: 338px; } }
 
