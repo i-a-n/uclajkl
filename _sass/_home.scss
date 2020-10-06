@@ -71,7 +71,7 @@
 
 .footerHome {
     position: absolute;
-    top: 3000px;
+    top: 2500px;
     width: 100%;
     background-color: #0055A6;
     color: #FFFFFF;
@@ -125,5 +125,12 @@ mark {
         min-height: 12000px;
     } 
 
+    .footerCol {
+        right: 45px;
+    }
+
+    .footerHome {
+        top: 3500px;
+    }
 }
 
