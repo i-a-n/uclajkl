@@ -2540,7 +2540,7 @@ th { color: #F7F7F7; background-color: #0055A6; font-family: "Crete Round", seri
 
 .gridRight, .gridRight a { background-color: #0055A6; color: white; }
 
-.footerHome { position: absolute; top: 3000px; width: 100%; background-color: #0055A6; color: #FFFFFF; }
+.footerHome { position: absolute; top: 2500px; width: 100%; background-color: #0055A6; color: #FFFFFF; }
 
 .footerHome a { color: #CCEDFF; }
 
@@ -2554,7 +2554,7 @@ th { color: #F7F7F7; background-color: #0055A6; font-family: "Crete Round", seri
 
 mark { background-color: #753ece; color: white; padding: 8px; }
 
-@media screen and (max-width: 768px) { .homeHero h5 { width: 70%; } .cardHomeBanner { background-color: #F7F7F7; width: 80%; top: 50%; } .homePage { min-height: 12000px; } }
+@media screen and (max-width: 768px) { .homeHero h5 { width: 70%; } .cardHomeBanner { background-color: #F7F7F7; width: 80%; top: 50%; } .homePage { min-height: 12000px; } .footerCol { right: 45px; } .footerHome { top: 3500px; } }
 
 @media (min-width: 992px) { .module--50-50 .col--text { min-height: 338px; } }
 
