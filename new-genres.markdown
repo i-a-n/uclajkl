@@ -1,217 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Genres</title>
-<!--Fonts-->
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-
-<!--Icons-->
-<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-<!--Stylsheets-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" href="../CSS/style.css">
-</head>
-   
-
-<script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="../JS/script.js"></script>
-<body>
-
-<!--NavBar-->
-<div class="container  px-0">
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="https://placehold.it/118x43"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav  mr-auto">
-        <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ACADEMICS+
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                  <div class="col-sm-auto">
-                    <div class="dropdown-item-text">
-                      Text TK TKTKTK
-                    </div>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                    <a class="dropdown-item" href="#">Link</a>
-                  </div>
-                </div>
-            </div>
-          </li>
-      <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          PEOPLE+
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-auto">
-                <div class="dropdown-item-text">
-                  Text TK TKTK
-                </div>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-              </div>
-              <div class="col-sm-auto">
-                <div class="dropdown-item-text">
-                  Text TK TKTKTK
-                </div>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-              </div>
-            </div>
-        </div>
-      </li>
-      <li class="nav-item  ml-1  ml-lg-4">
-        <a class="nav-link" href="#">EVENTS</a>
-      </li>
-      <li class="nav-item dropdown  styled-dropdown  ml-1  ml-lg-4">
-        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          ABOUT+
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-auto">
-                <div class="dropdown-item-text">
-                  Text TK TKTK
-                </div>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-              </div>
-              <div class="col-sm-auto">
-                <div class="dropdown-item-text">
-                  Text TK TKTKTK
-                </div>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-                <a class="dropdown-item" href="#">Link</a>
-              </div>
-            </div>
-        </div>
-      </li>
-    </ul>
-    <div class="my-2 my-lg-0">
-        <button type="button" class="mx-1  btn  btn-primary  font-weight-bold  btn--nav">APPLICATIONS</button>
-        <button type="button" class="mx-1  btn  btn-warning font-weight-bold btn--nav">FOR CURRENT STUDENTS</button>
-     </div>
-  </div>
-</nav>
-</div>
+---
+title: New Genres
+layout: default
+permalink: "/new-genres/"
+---
 
 <div class="container pt-0 mt-0">
 <div class="row">
-    <div class="col-lg light-blue px-0">
-        <h4 class="pt-5 mx-5">New Genres at UCLA</h4>
+    <div class="col-lg bg-lilac px-0">
+        <h4 class="pt-5 mx-5 font-serif-1">New Genres at UCLA</h4>
         <p class="pt-3 mx-5">The New Genres Area curriculum includes moving image, sound, performance, installation, hybrid, and emerging art forms. The program invites students to question preconceived ideas about the roles art plays in society, and to examine how these roles are impacted by specific forms and mediums. To that end, students are encouraged to experiment with artistic process, to track the way that ideas change as they move through various modes of production, and to examine how content is affected by methods of
             display and dissemination.</p> 
     </div>
     <div class="col-lg px-0 mx-0 my-0">
-      <img width=100% height="100%" src="https://placehold.it/570x403">
+      <img class="full-width-img" src="https://placehold.it/570x403">
     </div>
 </div>
 </div>
 
 <div class="container pt-5">
-    <h4>New Genres Faculty</h4>
+    <h4 class="font-serif-1">New Genres Faculty</h4>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-3">
-            <img width=100% src="http://placehold.it/250x200">
-            <p class="genres_faculty">New Genres - Area Head</p>
-            <h5>Jennifer Bolande</h5>
-            <img width=100% src="http://placehold.it/250x200">
-            <p class="genres_faculty">New Genres - Assistant Professor</p>
-            <h5>Barbara Kruger??</h5>
-
+            <img class="full-width-img" src="http://placehold.it/250x200">
+            <div class="container bg-light-gray">
+            <p class="mb-1">New Genres - Area Head</p>
+            <h5 class="font-serif-1">Jennifer Bolande</h5>
+            </div>
+            <img class="full-width-img pt-3" src="http://placehold.it/250x200">
+            <div class="container bg-light-gray">
+            <p class="mb-1">New Genres - Assistant Professor</p>
+            <h5 class="font-serif-1">Barbara Kruger??</h5>
+            </div>
             <p class="mb-0 pt-3"><strong>Visiting Faculty</strong></p>
             <p class="mb-0">First Name Last Name - Class / Quarter</p>
             <p class="mb-0">First Name Last Name - Class / Quarter</p>
             <p class="mb-0">First Name Last Name - Class / Quarter</p>
-
-
         </div>
         <div class="col-3">
-            <img width=100% src="http://placehold.it/250x200">
-            <p class="genres_faculty">New Genres - Professor</p>
-            <h5>Barbara Kruger</h5>
-            <img width=100% src="http://placehold.it/250x200">
-            <p class="genres_faculty">New Genres - Lab Supervisor</p>
-            <h5>Deanna Erdmann</h5>
-
-
+            <img class="full-width-img" src="http://placehold.it/250x200">
+            <div class="container bg-light-gray">
+            <p class="mb-1">New Genres - Professor</p>
+            <h5 class="font-serif-1">Barbara Kruger</h5>
+            </div>
+            <img class="full-width-img pt-3" src="http://placehold.it/250x200">
+            <div class="container bg-light-gray">
+            <p class="mb-1">New Genres - Lab Supervisor</p>
+            <h5 class="font-serif-1">Deanna Erdmann</h5>
+            </div>
         </div>
         <div class="col-2">
-
         </div>
         <div class="col-4">
-            <div class="card studio">
-                <h5 class="card-header" id="studio">Location & Contact Information</h5>
-                <div class="card-body">
-                  <h5 class="card-title">New Genres Area Location</h5>
-                  <p class="card-text mb-0">The New Genres area is located on the second floor of the <u>Broad Art Center,</u> gallery wing.
+            <div class="card purple-box">
+                <h5 class="card-header purple-box-header font-serif-1">Location & Contact Information</h5>
+                <div class="card-body bg-light-gray pt-1">
+                  <h5 class="card-title mb-0"><strong>New Genres Area Location</strong></h5>
+                  <p class="card-text pt-0 mb-0">The New Genres area is located on the second floor of the <u>Broad Art Center,</u> gallery wing.
                 </p>
                 <p class="card-text mb-0">NG Classrooms - 2122 & 2135</p>
                 <p class="card-text mb-0">NG Editing Suites - 2132 & 2136</p>
                 <p class="card-text mb-0">NG Installation Spaces - 2145, 2147, 2138, and 2140</p>
                 <p class="card-text">NG Viewing Room - 2118</p>
-
                 <p class="card-text mb-0">Area Head Jennifer Bolande's Office - 2133</p>
                 <p class="card-text">Professor New Faculty Office - 2139</p>
-                
                 <p class="card-text mb-0" style="font-weight: bold;">New Genres Lab Supervisor</p>
                 <p class="card-text mb-0">Deanna Erdmann</p>
                 <p class="card-text mb-0">deannaerdmann@arts.ucla.edu</p>
                 <p class="card-text mb-0">T: (310) 206.3888</p>
                 <p class="card-text">Office: 2124 Broad Art Center</p>
-
                 <p class="card-text mb-0" style="font-weight: bold;">Office Hours</p>
                 <p class="card-text">Monday - Thursday, 9 am - 5.30 pm </p>
-
                 <p class="card-text mb-0" style="font-weight: bold;">New Genres Area Head</p>
                 <p class="card-text mb-0">Jennifer Bolande, Professor</p>
                 <p class="card-text mb-0">E: jbolande@ucla.edu</p>
                 <p class="card-text mb-0">T: (310) 206-3888</p>
                 <p class="card-text">Office: 2133 Broad Art Center</p>
-
                 <p class="card-text mb-0">Vishal Jugdeo, Assistant Professor</p>
                 <p class="card-text mb-0">E: vjugdeo@arts.ucla.edu</p>
                 <p class="card-text mb-0">T: (310) 206-3888</p>
-                <p class="card-text">Office: 2139 Broad Art Center</p>
-
-               
+                <p class="card-text">Office: 2139 Broad Art Center</p>               
                 </div>
               </div>
-
         </div>
     </div>
 </div>
@@ -219,7 +91,7 @@
 <hr>
 
 <div class="container pt-5">
-    <h4>Facilities & Equipment</h4>
+    <h4 class="font-serif-1">Facilities & Equipment</h4>
     <p>New genres classrooms are equipped with projectors, Apple computers, sound systems, and media carts capable of playing DVDs, Blu-ray discs, and VHS tapes. The work rooms adjacent to new genres classrooms are used as shared studio and exhibition spaces by students enrolled in new genres classes. Students may also use classrooms, work rooms, and classroom computers outside of class time. Other facilities available for students enrolled in new genres classes are listed below.</p>
     <p class="pt-3 mb-0"><strong>Instructional Materials Fee</strong></p>
     <p>All students must pay an Iinstructional Mmaterials fee each quarter they are enrolled in nNew
@@ -240,7 +112,7 @@
             <div class="carousel-item active">
                 <img class="img-responsive center-block" src="http://placehold.it/750x450" alt="First Slide">
                 <div class="align-items-center flex-column">
-                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</p></strong>
+                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</strong></p>
                   <p>Three New Genresnew genres iInstallation sSpaces are available to undergraduate students for
                     two-week residencies. Each space is approximately 10 × &#39; x 12′&#39;.  . Residency reservations open
                     at the beginning of each quarter and students may sign up once per quarter. . Students not
@@ -252,7 +124,7 @@
             <div class="carousel-item">
                 <img class="img-responsive center-block" src="http://placehold.it/750x450" alt="Second Slide">
                 <div class="align-items-center flex-column">
-                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</p></strong>
+                  <p><strong>New Genres Installation Spaces: Rooms 2138, 2140, 2145, 2147</strong></p>
                   <p>Three New Genresnew genres iInstallation sSpaces are available to undergraduate students for
                     two-week residencies. Each space is approximately 10 × &#39; x 12′&#39;.  . Residency reservations open
                     at the beginning of each quarter and students may sign up once per quarter. . Students not
@@ -357,7 +229,6 @@
       <p>All MFA students are offered the use of individual studios off-campus in the UCLA Graduate Art Studios, located nearby in West Los Angeles. In addition to individual studio spaces, the studio building houses photography, sculpture, ceramics, and computer labs, as well as an open space for gallery, classroom, or lecture use. Although the Department of Art does not offer graduate level courses in the summer, the graduate studios are open year-round.</p>
       <p class="mb-0">For MFA applicants to the New Genres area:</p>
       <p>Please note that  New Genres candidates can include artists who work in theater, film, music, writing, and new media, but generally only when they also have a strong background in modern and contemporary visual art history and are engaged in a dialog with the contemporary visual art field.</p>
-
     </div>
     <div class="col-md-6">
       <div class="card grad mb-5">
@@ -379,8 +250,6 @@
          <p class="card-text">Chris Velez, <a href="#"><u>website</u></a></p>
         </div>
       </div>
-
-
     </div>
   </div>
 </div>
@@ -391,7 +260,6 @@
     <h4 >New Genres Equipment List, Alumni, and Resources</h4>
     <p class="pt-4 mb-0">Download our extensive equipment list and manual, browse through our list of New Genres Alumni, and visit local resources and other links.</p>
     <p><strong>DONATE: Donate your useful video cameras, AV or production equipment, please!</strong></p>
-
   </div>
 </div>
 
@@ -416,8 +284,3 @@
   </div>
 </div>
 
-
-
-
-</body>
-</html>
