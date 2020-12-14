@@ -24,10 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+static_scheme: https
+static_host: uclaart.dev
+static_port: "443"
 
 jekyll_admin:
   hidden_links:
@@ -55,6 +58,7 @@ defaults:
       professional_title: "Title"
       dept: "Department"
       email: "email@address.com"
+      image: "assets/uploads/faculty/"
   -
     scope:
       path: ""
